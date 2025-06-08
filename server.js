@@ -178,6 +178,6 @@ setInterval(() => {
 
 }, GAME_TICK_RATE); // Run game logic at a fixed rate
 
-server.listen(8080, () => {
-    console.log('Game server listening on port 8080');
+server.listen(1234, () => {
+    console.log('Game server listening on port 1234');
 });
